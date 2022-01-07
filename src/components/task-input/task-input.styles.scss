@@ -1,0 +1,23 @@
+.input-container {
+  height: 70px;
+  width: 600px;
+  margin: 100px auto 30px;
+}
+
+.task-input {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid red;
+  outline:0;
+  font-size: 17px;
+
+  &::placeholder {
+    // color: black;
+    font-size: 17px;
+  }
+
+  &:focus {
+    border: 0;
+    border-bottom: 2px solid green;
+  }
+}
